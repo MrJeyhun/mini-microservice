@@ -58,6 +58,7 @@ app.post("/events", async (req, res) => {
           content,
         },
       });
+
       break;
     }
     default: {
