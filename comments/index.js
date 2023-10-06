@@ -60,6 +60,10 @@ app.post("/events", async (req, res) => {
       });
       break;
     }
+    default: {
+      console.error("Unknown type");
+      break;
+    }
   }
 
   res.send({});
